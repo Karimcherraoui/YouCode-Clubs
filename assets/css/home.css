@@ -1,0 +1,255 @@
+*{
+    font-family:sans-serif;
+}
+/* start nav */
+body{
+    margin: 0px;  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    box-shadow: 10px 5px 10px rgb(0,0,0,0.3);
+    border-radius: 5px;
+}
+.menu{
+    width: 25%;
+    text-align: center;
+}
+.menu .menb {
+    margin-right: 20px;
+}
+.uil {
+    margin-right: 10px;
+    color: white;
+
+    cursor: pointer;
+}
+.menu a:hover{
+    color: rgb(65, 166, 255);
+    animation-delay: 1s;
+}
+.menu a{
+    /* margin-right: 10px; */
+    
+    color: white;
+    font-family: sans-serif;
+    padding-left: 8%;
+    text-decoration: none;
+}
+.menu i{
+    font-size: xx-large;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+}
+.sign-box{
+
+    position: fixed;
+    align-items: center;
+    top: 12.7%;
+    width: 20%;
+    right:-200%;
+    height: 250px;
+    padding: 1%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.active-box{
+    right:0.5%;
+}
+.signinform{
+    text-align: center;
+
+}
+
+.signinform p {
+    font-size: 70%;
+    line-height: 20px;
+}
+
+.signinform input{
+    margin-top: 20px;
+}
+.signinform button{
+    margin-top: 20px;
+}
+
+.signinform .connect{
+    background-color: #2f5efa;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3% 7%;
+    cursor: pointer;
+}
+.text{
+    /* display: flex; */
+    /* justify-content: center; */
+    
+    max-width: 80%;
+    margin-left: 10%;
+}
+.btnlog{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(47, 113, 254);
+    border: none;
+    border-radius: 2px;
+    margin-right: 15px;
+    padding: 7px 25px;
+}
+
+section{
+    
+}
+/* end navi */
+.contenu{
+    text-align: center;
+    
+}
+h1, h3{
+    text-align: center;
+
+}
+
+.cont{
+    max-width: 90%;
+    min-width: 60%;
+    /* box-shadow: 10px 10px 10px 10px grey; */
+    padding: 5px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow: scroll;
+    padding-bottom: 50px;
+    margin-left: 3%;
+    border: solid rgb(217, 215, 215);
+
+}
+.club{
+    /* flex: 1; */
+    /* padding-left: 10px; */
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.club p{
+    text-align: center;
+}
+.container img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+} 
+
+/* footer */
+.footer{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+
+  }
+  .footer a{
+    color: rgb(65, 166, 255);
+    text-decoration: none;
+   
+
+  }
+  .copyright{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width: 376px){
+
+    .logo img {
+        width: 100px;
+        height: 30px;
+    }
+
+    .menu{
+        justify-content: center;
+        text-align: center;
+        font-size: 13px;
+        width: 69%;
+    }
+    .btnlog{
+        padding: 7px 15px;
+        margin-right: -50px;
+    }
+    .menu .menb{
+        margin-left: 15px;
+        margin-right: 5px;
+        
+    }
+    .menu a{
+             padding-left: 0%;
+    }
+    .intro{
+        font-size: 10px;
+        /* margin-right: 45px; */
+    }
+    h1 {
+        font-size: 20px;
+        /* margin-right: 50px; */
+    }
+    .cont{
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        width: 85%;
+    
+    }
+    
+    .club p{
+        font-size: 13px;
+
+    }
+    .tasks li{
+        font-size: 13px;
+        margin-right: 30px;
+    }
+    .active-box {
+        right: 20.5%;
+    }
+    .sign-box {
+        top: 10.7%;
+        width: 69%;
+
+    }
+    .copyright p {
+        font-size: 10px;
+        margin-right: 30px;
+    }
+
+
+
+  }
